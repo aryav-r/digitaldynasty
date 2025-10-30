@@ -834,7 +834,7 @@
 
     <div class="container">
         <h1 class="title">
-            <span class="gradient-text">Digital Dynasty</span>
+            <span class="gradient-text">Growth Dynasty</span>
         </h1>
 
         <p class="description">
@@ -945,7 +945,7 @@
             console.log('Telegram button clicked');
         });
 
-        console.log('%c💎 Digital Dynasty 💎', 'color: #FF1493; font-size: 28px; font-weight: bold;');
+        console.log('%c💎 Growth Dynasty 💎', 'color: #FF1493; font-size: 28px; font-weight: bold;');
         console.log('%cJoin: https://t.me/+aB7_b4TpTfIyZGU1', 'color: #00CED1; font-size: 18px;');
 
         const observer = new IntersectionObserver((entries) => {
@@ -976,10 +976,11 @@
             }
         });
     </script>
-    
-    import { Analytics } from "@vercel/analytics/next"
-    
+
+    <!-- Vercel Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
-
-
